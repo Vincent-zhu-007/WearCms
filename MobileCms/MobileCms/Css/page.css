@@ -1,0 +1,96 @@
+﻿/*分页按钮样式*/
+.paginator {float:left; padding:20px 0px 20px 0; margin: 0px;}
+
+.paginator font
+{
+    color:Red;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.paginator a {border:solid 1px #ccc;color:#0063dc;cursor:pointer;text-decoration:none;}
+
+.paginator a:visited {padding: 1px 6px; border: solid 1px #ddd; background: #fff; text-decoration: none;}
+
+.paginator span.cursor {border:1px solid #F50;font-weight:700;color:#F50;background-color:#ffeee5;width:auto;}
+
+.paginator a:hover {border:solid 1px #F50;color:#f60;text-decoration:none;}
+.paginator a,
+.paginator a:visited,
+.paginator .cursor,
+.paginator a:hover  
+{
+    float:left;
+    height:16px;
+    line-height:16px;
+    min-width:10px;
+    _width:10px;
+    margin-right:5px;
+    text-align:center; 
+    white-space:nowrap;
+    font-size:12px;
+    padding:3px 6px;
+}
+
+.paginator a[disabled],
+.paginator a[disabled]:link, 
+.paginator a[disabled]:active, 
+.paginator a[disabled]:visited,
+.paginator a[disabled]:hover, 
+.paginator a[disabled]:focus {
+    color: #999!important;
+    border-color:#ccc;
+    text-decoration: none!important;
+    cursor:default;
+}
+
+/* 分页 new */
+.fanye
+{
+    text-align:right;
+    padding:15px 20px;
+}
+
+.fanye a
+{
+    display:inline-block;
+    width:20px;
+    line-height:20px;
+    height:20px;
+    margin:0 2px;
+    text-align:center;
+    color:#7E7E7E;
+}
+
+.fanye a.next,.fanye a:hover.next
+{
+    
+}
+
+.fanye a.prev,.fanye a:hover.prev
+{
+    
+}
+
+.fanye span.cursor
+{
+    display:inline-block;
+    width:20px;
+    line-height:20px;
+    height:20px;
+    margin:0 2px;
+    text-align:center;
+}
+
+.fanye a:hover,.fanye span.cursor
+{
+    background-color: #7E7E7E;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.pagecontain
+{
+    float:right;
+    width:880px;
+}

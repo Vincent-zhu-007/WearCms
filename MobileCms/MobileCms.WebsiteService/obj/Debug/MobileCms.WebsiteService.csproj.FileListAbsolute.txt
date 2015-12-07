@@ -1,0 +1,5 @@
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.WebsiteService.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.WebsiteService.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.WebsiteService\obj\Debug\MobileCms.WebsiteService.csprojResolveAssemblyReference.cache
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.WebsiteService\obj\Debug\MobileCms.WebsiteService.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.WebsiteService\obj\Debug\MobileCms.WebsiteService.pdb

@@ -1,0 +1,39 @@
+﻿.position 
+{
+    background: url("../Images/pbg.png") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    height: 30px;
+    line-height: 30px;
+    padding-top: 10px;
+    top: 0;
+}
+
+.ps 
+{
+    left: 294px;
+    position: absolute;
+    right: 20px;
+}
+
+.position span 
+{
+    color: #ff0000;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.brad 
+{
+    color:#000000;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.brad a 
+{
+    color: #333;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0;
+}

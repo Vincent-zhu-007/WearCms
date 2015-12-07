@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms", "MobileCms\MobileCms.csproj", "{C239D4A4-AF5B-47E9-A802-732E4A894A7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms.Cache", "MobileCms.Cache\MobileCms.Cache.csproj", "{F1331585-704B-4F19-A541-838274E07190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms.CacheService", "MobileCms.CacheService\MobileCms.CacheService.csproj", "{6BD91F94-9DC8-4815-9171-843422990186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms.Common", "MobileCms.Common\MobileCms.Common.csproj", "{64FA90AF-FF35-4C5C-9A09-E590C7843AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms.Container", "MobileCms.Container\MobileCms.Container.csproj", "{AF275F90-8C99-41CE-9A7D-7F6092BF70A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms.Data", "MobileCms.Data\MobileCms.Data.csproj", "{A5F0823A-A630-4200-843C-8D9DC51537F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms.Website", "MobileCms.Website\MobileCms.Website.csproj", "{7FC38AFE-C5E1-4AA4-843E-18799FD7206C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileCms.WebsiteService", "MobileCms.WebsiteService\MobileCms.WebsiteService.csproj", "{2F707341-F45E-4C90-875A-6F6059F68428}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 9
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MobileCms.Cache\\MobileCms.Cache.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = MobileCms.Cache\\
+		SccProjectUniqueName2 = MobileCms.CacheService\\MobileCms.CacheService.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = MobileCms.CacheService\\
+		SccProjectUniqueName3 = MobileCms.Common\\MobileCms.Common.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = MobileCms.Common\\
+		SccProjectUniqueName4 = MobileCms.Container\\MobileCms.Container.csproj
+		SccLocalPath4 = .
+		SccProjectFilePathRelativizedFromConnection4 = MobileCms.Container\\
+		SccProjectUniqueName5 = MobileCms.Data\\MobileCms.Data.csproj
+		SccLocalPath5 = .
+		SccProjectFilePathRelativizedFromConnection5 = MobileCms.Data\\
+		SccProjectUniqueName6 = MobileCms.Website\\MobileCms.Website.csproj
+		SccLocalPath6 = .
+		SccProjectFilePathRelativizedFromConnection6 = MobileCms.Website\\
+		SccProjectUniqueName7 = MobileCms.WebsiteService\\MobileCms.WebsiteService.csproj
+		SccLocalPath7 = .
+		SccProjectFilePathRelativizedFromConnection7 = MobileCms.WebsiteService\\
+		SccProjectUniqueName8 = MobileCms\\MobileCms.csproj
+		SccLocalPath8 = .
+		SccProjectFilePathRelativizedFromConnection8 = MobileCms\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C239D4A4-AF5B-47E9-A802-732E4A894A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C239D4A4-AF5B-47E9-A802-732E4A894A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C239D4A4-AF5B-47E9-A802-732E4A894A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C239D4A4-AF5B-47E9-A802-732E4A894A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1331585-704B-4F19-A541-838274E07190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1331585-704B-4F19-A541-838274E07190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1331585-704B-4F19-A541-838274E07190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1331585-704B-4F19-A541-838274E07190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD91F94-9DC8-4815-9171-843422990186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD91F94-9DC8-4815-9171-843422990186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD91F94-9DC8-4815-9171-843422990186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD91F94-9DC8-4815-9171-843422990186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FA90AF-FF35-4C5C-9A09-E590C7843AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FA90AF-FF35-4C5C-9A09-E590C7843AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FA90AF-FF35-4C5C-9A09-E590C7843AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FA90AF-FF35-4C5C-9A09-E590C7843AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF275F90-8C99-41CE-9A7D-7F6092BF70A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF275F90-8C99-41CE-9A7D-7F6092BF70A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF275F90-8C99-41CE-9A7D-7F6092BF70A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF275F90-8C99-41CE-9A7D-7F6092BF70A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F0823A-A630-4200-843C-8D9DC51537F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F0823A-A630-4200-843C-8D9DC51537F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F0823A-A630-4200-843C-8D9DC51537F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F0823A-A630-4200-843C-8D9DC51537F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FC38AFE-C5E1-4AA4-843E-18799FD7206C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FC38AFE-C5E1-4AA4-843E-18799FD7206C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FC38AFE-C5E1-4AA4-843E-18799FD7206C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FC38AFE-C5E1-4AA4-843E-18799FD7206C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F707341-F45E-4C90-875A-6F6059F68428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F707341-F45E-4C90-875A-6F6059F68428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F707341-F45E-4C90-875A-6F6059F68428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F707341-F45E-4C90-875A-6F6059F68428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Container.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Container.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.Container\obj\Debug\MobileCms.Container.csprojResolveAssemblyReference.cache
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.Container\obj\Debug\MobileCms.Container.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.Container\obj\Debug\MobileCms.Container.pdb

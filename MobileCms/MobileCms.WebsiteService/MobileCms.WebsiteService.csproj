@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F707341-F45E-4C90-875A-6F6059F68428}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MobileCms.WebsiteService</RootNamespace>
+    <AssemblyName>MobileCms.WebsiteService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\MobileCms\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeService.cs" />
+    <Compile Include="MobileAppConfigService.cs" />
+    <Compile Include="MobileAppItemService.cs" />
+    <Compile Include="MobileAppService.cs" />
+    <Compile Include="MobileCardReaderReportService.cs" />
+    <Compile Include="MobileContactMemberService.cs" />
+    <Compile Include="MobileContactService.cs" />
+    <Compile Include="MobileMessageService.cs" />
+    <Compile Include="MobileOrgStructureService.cs" />
+    <Compile Include="MobileUserExtensionService.cs" />
+    <Compile Include="MobileUserFileService.cs" />
+    <Compile Include="MobileUserLocationService.cs" />
+    <Compile Include="MobileUserService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RpcService.cs" />
+    <Compile Include="SmsService.cs" />
+    <Compile Include="WeiXinInMobileService.cs" />
+    <Compile Include="WeiXinMessageService.cs" />
+    <Compile Include="WeiXinUserService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MobileCms.Cache\MobileCms.Cache.csproj">
+      <Project>{F1331585-704B-4F19-A541-838274E07190}</Project>
+      <Name>MobileCms.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileCms.Common\MobileCms.Common.csproj">
+      <Project>{64FA90AF-FF35-4C5C-9A09-E590C7843AC0}</Project>
+      <Name>MobileCms.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileCms.Container\MobileCms.Container.csproj">
+      <Project>{AF275F90-8C99-41CE-9A7D-7F6092BF70A8}</Project>
+      <Name>MobileCms.Container</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileCms.Data\MobileCms.Data.csproj">
+      <Project>{A5F0823A-A630-4200-843C-8D9DC51537F8}</Project>
+      <Name>MobileCms.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileCms.Website\MobileCms.Website.csproj">
+      <Project>{7FC38AFE-C5E1-4AA4-843E-18799FD7206C}</Project>
+      <Name>MobileCms.Website</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

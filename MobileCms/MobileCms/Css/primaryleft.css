@@ -1,0 +1,130 @@
+﻿.primary_left
+{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 264px;
+    z-index: 999;
+}
+
+.logo
+{
+    /*background:transparent url("../Images/logo.png") no-repeat scroll 0 0;*/
+    background-image:url("../Images/logo.png");
+    background-repeat:no-repeat;
+    color: #fff;
+    font-size: 12px;
+    height: 111px;
+    position: relative;
+    width: 264px;
+}
+
+.logo_user
+{
+    left: 20px;
+    position: absolute;
+    top: 80px;
+}
+
+.logo_close
+{
+    background:transparent url("../Images/i10.png") no-repeat scroll 0 0;
+    height: 32px;
+    left: 175px;
+    padding-left: 20px;
+    position: absolute;
+    top: 80px;
+}
+
+.logo_close a
+{
+    color: #fff;
+}
+
+.primary_left dl
+{
+    background:transparent url("../Images/navbg2.png") no-repeat scroll 0 0;
+    width: 264px;
+}
+
+.primary_left dl dt 
+{
+    color: #bfbfbf;
+    font-size: 14px;
+    height: 23px;
+    padding: 8px 0 6px 50px;
+}
+
+.primary_left dl dt.dt1 {
+    background:transparent url("../Images/i1.png") no-repeat scroll 20px center;
+}
+
+.primary_left dl dt.dt2 {
+    background:transparent url("../Images/i2.png") no-repeat scroll 20px center;
+}
+
+.primary_left dl dt.dt3 {
+    background:transparent url("../Images/i3.png") no-repeat scroll 20px center;
+}
+
+.primary_left dl dt.dt4 {
+    background:transparent url("../Images/i4.png") no-repeat scroll 20px center;
+}
+
+.primary_left dl dt.dt5 {
+    background:transparent url("../Images/i5.png") no-repeat scroll 20px center;
+}
+
+.primary_left dl dt.dt6 {
+    background:transparent url("../Images/i6.png") no-repeat scroll 20px center;
+}
+
+.primary_left dl dt.dt7 {
+    background:transparent url("../Images/i7.png") no-repeat scroll 20px center;
+}
+
+.primary_left dl dd 
+{
+    background:transparent url("../Images/nav_line.png") no-repeat scroll right bottom;
+    padding-bottom: 10px;
+}
+
+.primary_left dl dd ul li 
+{
+    height: 15px;
+    overflow: hidden;
+    padding-bottom: 4px;
+    padding-left: 50px;
+}
+
+.primary_left dl dd ul li a 
+{
+    display: block;
+    height: 15px;
+    overflow: hidden;
+}
+
+.primary_left dl dd ul li a span 
+{
+    background:transparent url("../Images/j_normal.png") no-repeat scroll left center;
+    display: block;
+    float: left;
+    height: 15px;
+    overflow: hidden;
+    width: 4px;
+}
+
+.primary_left dl dd ul li a b 
+{
+    color: #989898;
+    display: block;
+    float: left;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.primary_left dl dd ul li a:hover b, .primary_left dl dd ul li a b.on 
+{
+    color: #e11919;
+}

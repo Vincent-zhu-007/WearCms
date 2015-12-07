@@ -1,0 +1,323 @@
+﻿.public_jia_video 
+{
+    /*border-top: 1px solid #ccc;*/
+    float: left;
+    margin-top: 8px;
+    /*width: 958px;*/
+}
+
+.public_jia_video ul 
+{
+    overflow: hidden;
+    width: 960px;
+}
+
+.public_jia_video ul li.video_li 
+{
+    position: relative;
+}
+
+.public_jia_video ul li 
+{
+    float: left;
+    height: 300px;
+    line-height: 20px;
+    margin: 10px 1px 0 20px;
+    padding: 2px;
+    width: 285px;
+}
+
+.public_jia_video .item_block 
+{
+    border: 1px solid #ccc;
+    display: block;
+    height: 230px;
+    padding: 1px;
+    width: 281px;
+}
+
+.shipin_itemdescription 
+{
+    background: none repeat scroll 0 0 #000;
+    bottom: 220px;
+    height: 70px;
+    left: 4px;
+    opacity: 0.5;
+    position: absolute;
+    width: 280px;
+    z-index: 997;
+}
+
+.shipin_itemdescription span.detailsvideo {
+    left: 0;
+}
+.shipin_itemdescription span {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 60px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.shiping_itemtime
+{
+    background: none repeat scroll 0 0 #000;
+    bottom: 80px;
+    height: 25px;
+    left: 214px;
+    opacity: 0.5;
+    position: absolute;
+    width: 70px;
+    z-index: 997;
+}
+
+.shiping_itemtime span.times 
+{
+    left: 10px;
+}
+
+.shiping_itemtime span 
+{
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+}
+
+/*zbsp*/
+.zbsp_nr 
+{
+    float:left;
+    width:100%;
+    padding-left: 10px;
+}
+
+.zbsp_nr ul li 
+{
+    background:transparent url("../Images/sppic_03.png") no-repeat scroll 0 0;
+    float: left;
+    height: 187px;
+    margin: 20px 0 0 20px;
+    width: 275px;
+}
+
+.sp_pic 
+{
+    height: 156px;
+    padding: 1px 1px 0;
+    position: relative;
+    width: 273px;
+}
+
+.sp_pic div.img 
+{
+    height: 156px;
+    overflow: hidden;
+    width: 273px;
+}
+
+.sp_xx 
+{
+    height: 30px;
+    line-height: 30px;
+    width: 273px;
+}
+
+.user3 
+{
+    background:transparent url("../Images/userpic.gif") no-repeat scroll 10px 10px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 35px;
+}
+
+.l 
+{
+    float: left;
+}
+
+.pt 
+{
+    padding-right: 10px;
+}
+
+.r 
+{
+    float: right;
+}
+
+.btn a 
+{
+    background:transparent url("../Images/btn_normal.png") no-repeat scroll left top;
+    color: #333;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.btn a span 
+{
+    background:transparent url("../Images/btn_normal.png") no-repeat scroll right top;
+    color: #333;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.btn a:hover 
+{
+    background:transparent url("../Images/btn_down.png") no-repeat scroll left top;
+    color: #fff;
+}
+
+.btn a:hover span 
+{
+    background:transparent url("../Images/btn_down.png") no-repeat scroll right top;
+    color: #fff;
+}
+
+.user 
+{
+    height: 20px;
+    line-height: 20px;
+    padding-top: 6px;
+}
+
+.user1 
+{
+    height: 20px;
+    line-height: 20px;
+}
+
+.user1 span 
+{
+    color: #787878;
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+.detailcss 
+{
+    background:transparent url("../Images/icn_spechbubble.png") no-repeat scroll left center;
+    overflow: hidden;
+    width: 127px;
+}
+
+#rptList_lblEmpty
+{
+    float:left;
+    width:960px;
+    height:80px;
+    line-height:80px;
+    text-align:center;
+}
+
+.btn label 
+{
+    background:transparent url("../Images/btn_normal.png") no-repeat scroll left top;
+    color: #333;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.btn label:hover
+{
+    background:transparent url("../Images/btn_down.png") no-repeat scroll left top;
+    color: #fff;
+}
+
+.btn label:hover .inputbtn
+{
+    background:transparent url("../Images/btn_down.png") no-repeat scroll right top;
+    color: #fff;
+}
+
+.inputbtn
+{
+    font: 12px/18px "微软雅黑" , "宋体" , "黑体" ,Arial;
+    border:0px;
+    background:transparent url("../Images/btn_normal.png") no-repeat scroll right top;
+    color: #333;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.xx_nr 
+{
+    background: none repeat scroll 0 0 #fff;
+    padding: 20px;
+}
+
+.xx_dl dt 
+{
+    clear: both;
+}
+
+.cor1 li 
+{
+    display: inline-block;
+    float: left;
+}
+
+.cor1 li span.t1 
+{
+    background:transparent url("../Images/s1.gif") no-repeat scroll left center;
+}
+
+.cor1 li span 
+{
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cor1 li span 
+{
+    color: #c63232;
+}
+
+.cor1 li span.u1 
+{
+    background:transparent url("../Images/s2.gif") no-repeat scroll left center;
+}
+
+.xx_dl dd 
+{
+    clear: both;
+    color: #333333;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}

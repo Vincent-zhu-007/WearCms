@@ -1,0 +1,62 @@
+﻿.window_div
+{
+    display:none;
+    width: 500px;
+    height:550px;
+    background-clip:padding-box;
+    background-color:#F5F7FA;
+    border-radius:6px 6px 6px 6px;
+    box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);
+    outline:0 none;
+    position:absolute;
+    z-index:1000;
+}
+
+.window_div .window_div_top
+{
+    border-bottom:1px solid #EEEEEE;
+    padding:9px 15px;
+}
+
+.window_div .window_div_top h3
+{
+    line-height:30px;
+    margin:0;
+    font-size:16px;
+}
+
+.window_div .window_div_top .close
+{
+    color:#000000;
+    float:right;
+    font-size:20px;
+    font-weight:bold;
+    line-height:20px;
+    opacity:0.2;
+    filter:Alpha(opacity=20);
+    -moz-opacity:0.2;
+    text-shadow:0 1px 0 #FFFFFF;
+    cursor:pointer;
+    margin-top:2px;
+}
+
+.window_div .window_div_top .close:hover
+{
+    opacity:0.4;
+    filter:Alpha(opacity=40);
+    -moz-opacity:0.4;
+}
+
+.window_div .window_div_body
+{
+    padding:15px;
+    position:relative;
+    font-size:14px;
+}
+
+.window_div .window_div_body img
+{
+    border:0 none;
+    height:auto;
+    vertical-align:middle;
+}

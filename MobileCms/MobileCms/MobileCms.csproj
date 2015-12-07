@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C239D4A4-AF5B-47E9-A802-732E4A894A7C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MobileCms</RootNamespace>
+    <AssemblyName>MobileCms</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNetPager, Version=7.3.2.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Library\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\Library\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="M2Mqtt.NetCf35">
+      <HintPath>..\..\Library\M2Mqtt.NetCf35.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Library\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls\primaryleft.ascx" />
+    <Content Include="createmobileappconfig.aspx" />
+    <Content Include="createmobileappwhitelistitem.aspx" />
+    <Content Include="createmobilemessage.aspx" />
+    <Content Include="createuser.aspx" />
+    <Content Include="createwhitelist.aspx" />
+    <Content Include="createwhitelistbyhand.aspx" />
+    <Content Include="Css\common.css" />
+    <Content Include="Css\custwindow.css" />
+    <Content Include="Css\detialjia.css" />
+    <Content Include="Css\index.css" />
+    <Content Include="Css\innertoolbar.css" />
+    <Content Include="Css\login.css" />
+    <Content Include="Css\page.css" />
+    <Content Include="Css\photo.css" />
+    <Content Include="Css\primaryleft.css" />
+    <Content Include="Css\register.css" />
+    <Content Include="Css\retrievepassword.css" />
+    <Content Include="Css\validator.css" />
+    <Content Include="Css\validator2.css" />
+    <Content Include="Css\wxcommon.css" />
+    <Content Include="CustScripts\common.js" />
+    <Content Include="CustScripts\datecommon.js" />
+    <Content Include="CustScripts\datehelp.js" />
+    <Content Include="daysummary.aspx" />
+    <Content Include="demo.aspx" />
+    <Content Include="download.aspx" />
+    <Content Include="editmobileappconfig.aspx" />
+    <Content Include="editmobilemessage.aspx" />
+    <Content Include="edituser.aspx" />
+    <Content Include="editwhitelistmember.aspx" />
+    <Content Include="Images\btn0_down.gif" />
+    <Content Include="Images\btn5.gif" />
+    <Content Include="Images\btnlogin_bg.png" />
+    <Content Include="Images\btn_down.png" />
+    <Content Include="Images\btn_normal.png" />
+    <Content Include="Images\btn_register.jpg" />
+    <Content Include="Images\btn_retrievepassword.png" />
+    <Content Include="Images\calendar.png" />
+    <Content Include="Images\cross.png" />
+    <Content Include="Images\dot.JPG" />
+    <Content Include="Images\edit.gif" />
+    <Content Include="Images\i1.png" />
+    <Content Include="Images\i10.png" />
+    <Content Include="Images\i2.png" />
+    <Content Include="Images\i3.png" />
+    <Content Include="Images\i4.png" />
+    <Content Include="Images\i5.png" />
+    <Content Include="Images\i6.png" />
+    <Content Include="Images\i7.png" />
+    <Content Include="Images\icn_spechbubble.png" />
+    <Content Include="Images\icon_27.png" />
+    <Content Include="Images\icon_271.png" />
+    <Content Include="Images\imagedoc-darknoise.png" />
+    <Content Include="Images\j_normal.png" />
+    <Content Include="Images\loading-small.gif" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\login_bg.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\nav.png" />
+    <Content Include="Images\navbg.png" />
+    <Content Include="Images\navbg2.png" />
+    <Content Include="Images\nav_a.png" />
+    <Content Include="Images\nav_line.png" />
+    <Content Include="Images\onCorrect.png" />
+    <Content Include="Images\onError.gif" />
+    <Content Include="Images\onError.png" />
+    <Content Include="Images\onFocus.gif" />
+    <Content Include="Images\onFocus.png" />
+    <Content Include="Images\onLoad.gif" />
+    <Content Include="Images\onShow.png" />
+    <Content Include="Images\onSuccess.gif" />
+    <Content Include="Images\passwordli_bg.png" />
+    <Content Include="Images\pbg.png" />
+    <Content Include="Images\RADIO.mp3" />
+    <Content Include="Images\s1.gif" />
+    <Content Include="Images\s2.gif" />
+    <Content Include="Images\save.png" />
+    <Content Include="Images\smgbg.png" />
+    <Content Include="Images\sppic_03.png" />
+    <Content Include="Images\sppic_12.png" />
+    <Content Include="Images\sppic_14.png" />
+    <Content Include="Images\sppic_15.png" />
+    <Content Include="Images\sppic_19.png" />
+    <Content Include="Images\thbg.png" />
+    <Content Include="Images\titbg.png" />
+    <Content Include="Images\u.png" />
+    <Content Include="Images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Images\usernameli_bg.png" />
+    <Content Include="Images\userpic.gif" />
+    <Content Include="Images\welcome.png" />
+    <Content Include="index.aspx" />
+    <Content Include="locations.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="mobileappconfig.aspx" />
+    <Content Include="mobileappwhitelist.aspx" />
+    <Content Include="mobileappwhitelistitem.aspx" />
+    <Content Include="mobilecardreaderreport.aspx" />
+    <Content Include="mobilecontrol.aspx" />
+    <Content Include="mobilemessage.aspx" />
+    <Content Include="modifypassword.aspx" />
+    <Content Include="PlugIn\checkcode.aspx" />
+    <Content Include="record.aspx" />
+    <Content Include="Scripts\carousel.js" />
+    <Content Include="Scripts\DD_belatedPNG.js" />
+    <Content Include="Scripts\dist\jstree.js" />
+    <Content Include="Scripts\dist\jstree.min.js" />
+    <Content Include="Scripts\dist\libs\document-register-element.js" />
+    <Content Include="Scripts\dist\libs\jquery.js" />
+    <Content Include="Scripts\dist\libs\require.js" />
+    <Content Include="Scripts\dist\themes\default\32px.png" />
+    <Content Include="Scripts\dist\themes\default\40px.png" />
+    <Content Include="Scripts\dist\themes\default\style.css" />
+    <Content Include="Scripts\dist\themes\default\style.min.css" />
+    <Content Include="Scripts\dist\themes\default\style1.css" />
+    <Content Include="Scripts\dist\themes\default\throbber.gif" />
+    <Content Include="Scripts\formValidator.js" />
+    <Content Include="Scripts\formValidatorRegex.js" />
+    <Content Include="Scripts\highcharts.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.form.js" />
+    <Content Include="Scripts\jquery.form1.js" />
+    <Content Include="Scripts\jqueryui\external\jquery\jquery.js" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="Scripts\jqueryui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="Scripts\jqueryui\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\jqueryui\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="Scripts\jqueryui\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="Scripts\jqueryui\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="Scripts\jqueryui\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Scripts\jqueryui\index.html" />
+    <Content Include="Scripts\jqueryui\jquery-ui.css" />
+    <Content Include="Scripts\jqueryui\jquery-ui.js" />
+    <Content Include="Scripts\jqueryui\jquery-ui.min.css" />
+    <Content Include="Scripts\jqueryui\jquery-ui.min.js" />
+    <Content Include="Scripts\jqueryui\jquery-ui.structure.css" />
+    <Content Include="Scripts\jqueryui\jquery-ui.structure.min.css" />
+    <Content Include="Scripts\jqueryui\jquery-ui.theme.css" />
+    <Content Include="Scripts\jqueryui\jquery-ui.theme.min.css" />
+    <Content Include="Scripts\jqueryui\jquery-ui1.css" />
+    <Content Include="users.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="whitelist.aspx" />
+    <Content Include="whitelistmember.aspx" />
+    <Content Include="wxbindmobile.aspx" />
+    <Content Include="wxbindmobilehelp.aspx" />
+    <Content Include="wxcallback.aspx" />
+    <Content Include="WxCss\wxcommon.css" />
+    <Content Include="WxCss\wxeducation.css" />
+    <Content Include="WxCss\wxlocation.css" />
+    <Content Include="WxCss\wxvalidator.css" />
+    <Content Include="WxCss\wxvalidator_center.css" />
+    <Content Include="wxeducation.aspx" />
+    <Content Include="wxguardian.aspx" />
+    <Content Include="WxImages\back.png" />
+    <Content Include="WxImages\back_hover.png" />
+    <Content Include="WxImages\bg-f.png" />
+    <Content Include="WxImages\common_title.png" />
+    <Content Include="WxImages\endpoint.png" />
+    <Content Include="WxImages\formregisterbutton.png" />
+    <Content Include="WxImages\formsubbutton.png" />
+    <Content Include="WxImages\icon_bbs.png" />
+    <Content Include="WxImages\icon_bbshover.png" />
+    <Content Include="WxImages\icon_classtable.png" />
+    <Content Include="WxImages\icon_classtablehover.png" />
+    <Content Include="WxImages\icon_guardian.png" />
+    <Content Include="WxImages\icon_guardianhover.png" />
+    <Content Include="WxImages\icon_help.png" />
+    <Content Include="WxImages\icon_helphover.png" />
+    <Content Include="WxImages\icon_homework.png" />
+    <Content Include="WxImages\icon_homeworkhover.png" />
+    <Content Include="WxImages\icon_sign.png" />
+    <Content Include="WxImages\icon_signhover.png" />
+    <Content Include="WxImages\icon_teacherbbs.png" />
+    <Content Include="WxImages\icon_teacherbbshover.png" />
+    <Content Include="WxImages\icon_undisturb.png" />
+    <Content Include="WxImages\icon_undisturbhover.png" />
+    <Content Include="WxImages\loginbutton.png" />
+    <Content Include="WxImages\loginbutton_hover.png" />
+    <Content Include="WxImages\login_passwordicon.png" />
+    <Content Include="WxImages\login_usericon.png" />
+    <Content Include="WxImages\registerbutton.png" />
+    <Content Include="WxImages\registerbutton_hover.png" />
+    <Content Include="WxImages\startpoint.png" />
+    <Content Include="WxImages\title-bg.png" />
+    <Content Include="WxImages\User.png" />
+    <Content Include="wxindex.aspx" />
+    <Content Include="wxlocation.aspx" />
+    <Content Include="wxlogin.aspx" />
+    <Content Include="wxmobilelist.aspx" />
+    <Content Include="wxregister.aspx" />
+    <Content Include="wxsetting.aspx" />
+    <Content Include="XmlTemplete\rpcxmlbase.xml" />
+    <Content Include="XmlTemplete\wxreplytext.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ajax\clearmobile.ashx.cs">
+      <DependentUpon>clearmobile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\clearmobileappconfigcache.ashx.cs">
+      <DependentUpon>clearmobileappconfigcache.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\createmobileappconfig.ashx.cs">
+      <DependentUpon>createmobileappconfig.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\createmobileappwhitelistitem.ashx.cs">
+      <DependentUpon>createmobileappwhitelistitem.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\createmobilemessage.ashx.cs">
+      <DependentUpon>createmobilemessage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\createwhitelistmemberbyhand.ashx.cs">
+      <DependentUpon>createwhitelistmemberbyhand.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\deletemobileappconfig.ashx.cs">
+      <DependentUpon>deletemobileappconfig.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\deletemobileappwhitelistitem.ashx.cs">
+      <DependentUpon>deletemobileappwhitelistitem.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\deletemobilemessage.ashx.cs">
+      <DependentUpon>deletemobilemessage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\deletemobileuser.ashx.cs">
+      <DependentUpon>deletemobileuser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\deletewhitelist.ashx.cs">
+      <DependentUpon>deletewhitelist.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\disablemobileuser.ashx.cs">
+      <DependentUpon>disablemobileuser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\editmobileappconfig.ashx.cs">
+      <DependentUpon>editmobileappconfig.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\editmobilemessage.ashx.cs">
+      <DependentUpon>editmobilemessage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\editmobileuser.ashx.cs">
+      <DependentUpon>editmobileuser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\editwhitelistmember.ashx.cs">
+      <DependentUpon>editwhitelistmember.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\getmobileappconfightmloptions.ashx.cs">
+      <DependentUpon>getmobileappconfightmloptions.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\getmobileuserfile.ashx.cs">
+      <DependentUpon>getmobileuserfile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\getmobileuserlocation.ashx.cs">
+      <DependentUpon>getmobileuserlocation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\getmobileuserlocationintime.ashx.cs">
+      <DependentUpon>getmobileuserlocationintime.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\getremoveandaddmobileappconfightmloptions.ashx.cs">
+      <DependentUpon>getremoveandaddmobileappconfightmloptions.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\getremoveandaddmobilemessagehtmloptions.ashx.cs">
+      <DependentUpon>getremoveandaddmobilemessagehtmloptions.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\listeningmobile.ashx.cs">
+      <DependentUpon>listeningmobile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\lockmobile.ashx.cs">
+      <DependentUpon>lockmobile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\login.ashx.cs">
+      <DependentUpon>login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\logout.ashx.cs">
+      <DependentUpon>logout.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\modifypassword.ashx.cs">
+      <DependentUpon>modifypassword.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\poweroffmobile.ashx.cs">
+      <DependentUpon>poweroffmobile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\reportlocation.ashx.cs">
+      <DependentUpon>reportlocation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\resetpassword.ashx.cs">
+      <DependentUpon>resetpassword.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\sendmobilemessage.ashx.cs">
+      <DependentUpon>sendmobilemessage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\sendregistersms.ashx.cs">
+      <DependentUpon>sendregistersms.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\weixinsignature.ashx.cs">
+      <DependentUpon>weixinsignature.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\wxlogin.ashx.cs">
+      <DependentUpon>wxlogin.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\wxregister.ashx.cs">
+      <DependentUpon>wxregister.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajax\wxsendregistersms.ashx.cs">
+      <DependentUpon>wxsendregistersms.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\primaryleft.ascx.cs">
+      <DependentUpon>primaryleft.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\primaryleft.ascx.designer.cs">
+      <DependentUpon>primaryleft.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="createmobileappconfig.aspx.cs">
+      <DependentUpon>createmobileappconfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createmobileappconfig.aspx.designer.cs">
+      <DependentUpon>createmobileappconfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createmobileappwhitelistitem.aspx.cs">
+      <DependentUpon>createmobileappwhitelistitem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createmobileappwhitelistitem.aspx.designer.cs">
+      <DependentUpon>createmobileappwhitelistitem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createmobilemessage.aspx.cs">
+      <DependentUpon>createmobilemessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createmobilemessage.aspx.designer.cs">
+      <DependentUpon>createmobilemessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createuser.aspx.cs">
+      <DependentUpon>createuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createuser.aspx.designer.cs">
+      <DependentUpon>createuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createwhitelist.aspx.cs">
+      <DependentUpon>createwhitelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createwhitelist.aspx.designer.cs">
+      <DependentUpon>createwhitelist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="createwhitelistbyhand.aspx.cs">
+      <DependentUpon>createwhitelistbyhand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="createwhitelistbyhand.aspx.designer.cs">
+      <DependentUpon>createwhitelistbyhand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="daysummary.aspx.cs">
+      <DependentUpon>daysummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="daysummary.aspx.designer.cs">
+      <DependentUpon>daysummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="demo.aspx.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="demo.aspx.designer.cs">
+      <DependentUpon>demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="download.aspx.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="download.aspx.designer.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editmobileappconfig.aspx.cs">
+      <DependentUpon>editmobileappconfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editmobileappconfig.aspx.designer.cs">
+      <DependentUpon>editmobileappconfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editmobilemessage.aspx.cs">
+      <DependentUpon>editmobilemessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editmobilemessage.aspx.designer.cs">
+      <DependentUpon>editmobilemessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edituser.aspx.cs">
+      <DependentUpon>edituser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edituser.aspx.designer.cs">
+      <DependentUpon>edituser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editwhitelistmember.aspx.cs">
+      <DependentUpon>editwhitelistmember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editwhitelistmember.aspx.designer.cs">
+      <DependentUpon>editwhitelistmember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="locations.aspx.cs">
+      <DependentUpon>locations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="locations.aspx.designer.cs">
+      <DependentUpon>locations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobileappconfig.aspx.cs">
+      <DependentUpon>mobileappconfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobileappconfig.aspx.designer.cs">
+      <DependentUpon>mobileappconfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobileappwhitelist.aspx.cs">
+      <DependentUpon>mobileappwhitelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobileappwhitelist.aspx.designer.cs">
+      <DependentUpon>mobileappwhitelist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobileappwhitelistitem.aspx.cs">
+      <DependentUpon>mobileappwhitelistitem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobileappwhitelistitem.aspx.designer.cs">
+      <DependentUpon>mobileappwhitelistitem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobilecardreaderreport.aspx.cs">
+      <DependentUpon>mobilecardreaderreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobilecardreaderreport.aspx.designer.cs">
+      <DependentUpon>mobilecardreaderreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobilecontrol.aspx.cs">
+      <DependentUpon>mobilecontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobilecontrol.aspx.designer.cs">
+      <DependentUpon>mobilecontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mobilemessage.aspx.cs">
+      <DependentUpon>mobilemessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mobilemessage.aspx.designer.cs">
+      <DependentUpon>mobilemessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="modifypassword.aspx.cs">
+      <DependentUpon>modifypassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="modifypassword.aspx.designer.cs">
+      <DependentUpon>modifypassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PlugIn\checkcode.aspx.cs">
+      <DependentUpon>checkcode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PlugIn\checkcode.aspx.designer.cs">
+      <DependentUpon>checkcode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="record.aspx.cs">
+      <DependentUpon>record.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="record.aspx.designer.cs">
+      <DependentUpon>record.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="users.aspx.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="users.aspx.designer.cs">
+      <DependentUpon>users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="whitelist.aspx.cs">
+      <DependentUpon>whitelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="whitelist.aspx.designer.cs">
+      <DependentUpon>whitelist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="whitelistmember.aspx.cs">
+      <DependentUpon>whitelistmember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="whitelistmember.aspx.designer.cs">
+      <DependentUpon>whitelistmember.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxbindmobile.aspx.cs">
+      <DependentUpon>wxbindmobile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxbindmobile.aspx.designer.cs">
+      <DependentUpon>wxbindmobile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxbindmobilehelp.aspx.cs">
+      <DependentUpon>wxbindmobilehelp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxbindmobilehelp.aspx.designer.cs">
+      <DependentUpon>wxbindmobilehelp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxcallback.aspx.cs">
+      <DependentUpon>wxcallback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxcallback.aspx.designer.cs">
+      <DependentUpon>wxcallback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxeducation.aspx.cs">
+      <DependentUpon>wxeducation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxeducation.aspx.designer.cs">
+      <DependentUpon>wxeducation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxguardian.aspx.cs">
+      <DependentUpon>wxguardian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxguardian.aspx.designer.cs">
+      <DependentUpon>wxguardian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxindex.aspx.cs">
+      <DependentUpon>wxindex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxindex.aspx.designer.cs">
+      <DependentUpon>wxindex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxlocation.aspx.cs">
+      <DependentUpon>wxlocation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxlocation.aspx.designer.cs">
+      <DependentUpon>wxlocation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxlogin.aspx.cs">
+      <DependentUpon>wxlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxlogin.aspx.designer.cs">
+      <DependentUpon>wxlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxmobilelist.aspx.cs">
+      <DependentUpon>wxmobilelist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxmobilelist.aspx.designer.cs">
+      <DependentUpon>wxmobilelist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxregister.aspx.cs">
+      <DependentUpon>wxregister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxregister.aspx.designer.cs">
+      <DependentUpon>wxregister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wxsetting.aspx.cs">
+      <DependentUpon>wxsetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="wxsetting.aspx.designer.cs">
+      <DependentUpon>wxsetting.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MobileCms.Common\MobileCms.Common.csproj">
+      <Project>{64FA90AF-FF35-4C5C-9A09-E590C7843AC0}</Project>
+      <Name>MobileCms.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileCms.Container\MobileCms.Container.csproj">
+      <Project>{AF275F90-8C99-41CE-9A7D-7F6092BF70A8}</Project>
+      <Name>MobileCms.Container</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileCms.Data\MobileCms.Data.csproj">
+      <Project>{A5F0823A-A630-4200-843C-8D9DC51537F8}</Project>
+      <Name>MobileCms.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobileCms.Website\MobileCms.Website.csproj">
+      <Project>{7FC38AFE-C5E1-4AA4-843E-18799FD7206C}</Project>
+      <Name>MobileCms.Website</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ComponentContainer.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\login.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\logout.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\editmobileuser.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\disablemobileuser.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\deletemobileuser.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\resetpassword.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\modifypassword.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\deletewhitelist.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\editmobileappconfig.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\createmobileappconfig.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\deletemobileappconfig.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\deletemobileappwhitelistitem.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\getmobileappconfightmloptions.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\getremoveandaddmobileappconfightmloptions.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\createmobileappwhitelistitem.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\clearmobileappconfigcache.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\createwhitelistmemberbyhand.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\lockmobile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\clearmobile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\getremoveandaddmobilemessagehtmloptions.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\createmobilemessage.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\editmobilemessage.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\sendmobilemessage.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\deletemobilemessage.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\getmobileuserfile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\editwhitelistmember.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\getmobileuserlocation.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\poweroffmobile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\reportlocation.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\listeningmobile.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\sendregistersms.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\weixinsignature.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\wxlogin.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\wxregister.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\wxsendregistersms.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ajax\getmobileuserlocationintime.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3441</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

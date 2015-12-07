@@ -1,0 +1,17 @@
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\AspNetPager.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\Newtonsoft.Json.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\Microsoft.Practices.Unity.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Cache.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\CuttingEdge.Conditions.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\Microsoft.Practices.ObjectBuilder2.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Common.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Container.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Data.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Website.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Cache.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\obj\Debug\MobileCms.csprojResolveAssemblyReference.cache
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\obj\Debug\MobileCms.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\obj\Debug\MobileCms.pdb

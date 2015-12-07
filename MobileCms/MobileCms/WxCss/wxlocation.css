@@ -1,0 +1,9 @@
+﻿#allmap
+{
+    width:96%;
+    height:100%;
+    min-height:500px;
+    margin-left:2%;
+    overflow: hidden;
+    position:relative;
+}

@@ -1,0 +1,54 @@
+﻿.onShow
+{
+    display:block;
+    position:absolute;
+    height:1px;
+    margin-left:12%;
+	color:#97CBFF;
+	margin-top:80px;
+}
+
+.onFocus
+{
+    display:none;
+    float:left;
+    background:url('../Images/onFocus.png') no-repeat; 
+    padding-left:25px; 
+	line-height:22px;
+	vertical-align:middle;
+	color:#97CBFF;
+}
+
+.onError
+{
+    display:block;
+    position:absolute;
+    height:1px;
+    margin-left:12%;
+	color:#ff3333;
+	margin-top:80px;
+}
+
+.onCorrect
+{
+    display:none;
+    float:left;
+    background:url('../Images/onCorrect.png') no-repeat;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	color:#97CBFF;
+}
+
+.onLoad
+{
+    display:none;
+    float:left;
+    background:url('../Images/onLoad.gif') no-repeat 3px 3px;
+    padding-left:25px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	color:#97CBFF;
+}

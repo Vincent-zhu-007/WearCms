@@ -1,0 +1,86 @@
+﻿
+.onShow
+{
+    position: absolute;
+    z-index: 999;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FFF8D7;
+    border-color: #FFE153;
+    color: #000000;
+    margin-left: 10px;
+    font-size:12px;
+}
+.onFocus
+{
+    position: absolute;
+    z-index: 999;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FFF8D7;
+    border-color: #FFE153;
+    color: #000000;
+    margin-left: 10px;
+    font-size:12px;
+}
+.onError
+{
+    position: absolute;
+    z-index: 999;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FFF8D7;
+    border-color: #FFE153;
+    color: #000000;
+    margin-left: 10px;
+    font-size:12px;
+}
+.onCorrect
+{
+    position: absolute;
+    z-index: 999;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #FFF8D7;
+    border-color: #FFE153;
+    color: #000000;
+    margin-left: 10px;
+    font-size:12px;
+}
+
+.onLoad
+{
+    background: #E9FFEB url(../Images/onLoad.gif) no-repeat 3px 3px;
+    padding-left: 25px;
+    font-size: 12px;
+    line-height: 22px;
+    vertical-align: middle;
+}

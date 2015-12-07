@@ -1,0 +1,5 @@
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Data.dll.config
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Data.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms\bin\MobileCms.Data.pdb
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.Data\obj\Debug\MobileCms.Data.dll
+E:\Project Development\MobileCmsV0.0.1\MobileCms\MobileCms.Data\obj\Debug\MobileCms.Data.pdb

@@ -1,0 +1,199 @@
+﻿body 
+{
+    font: normal 200% Helvetica, Arial, sans-serif;
+    background-color: #edf1f4;
+}
+
+a 
+{
+    text-decoration: none;
+    outline: none;
+    color:#6d7d8a;
+}
+
+a:focus 
+{
+    outline:none;
+}
+
+img 
+{
+    border:0px;
+}
+
+body, dl, dt, dd, ul, li, b, h2, img, a, input, select, textarea, h3, table, tr, td 
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li 
+{
+    list-style: outside none none;
+}
+
+.wrapper
+{
+    width:100%;
+    margin:0px auto;
+}
+
+/**/
+.top
+{
+    width: 100%;
+    height:172px;
+    line-height:172px;
+    background-image:url("/WxImages/common_title.png");
+}
+
+.top .back
+{
+    width:92px;
+    height:92px;
+    margin-top:40px;
+    margin-left:10px;
+    position:absolute;
+}
+
+.top .back a
+{
+    float:left;
+    width:92px;
+    height:92px;
+    background-image:url("/WxImages/back.png");
+}
+
+.top .back a:hover
+{
+    background-image:url("/WxImages/back_hover.png");
+}
+
+.top .title
+{
+    float:left;
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    font-size:1.5em;
+}
+
+/**/
+.content
+{
+    width:100%;
+}
+
+/**/
+.forminput
+{
+    float:left;
+    width:100%;
+}
+
+.forminput .forminputtext
+{
+    float:left;
+    width:96%;
+    height:170px;
+    line-height:170px;
+    margin-left:2%;
+    text-align:center;
+    color:#6d7d8a;   
+    background-color:#edf1f4;
+    border:none;
+    border-bottom:1px solid #B7B7B7;
+    text-align:left;
+    font-size:1em;
+}
+
+/**/
+.formbutton
+{
+    float:left;
+    width:100%;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.formbutton .button
+{
+    width:614px;
+    height:104px;
+    margin:0px auto;
+    padding-top:50px;
+}
+
+.formbutton .button .formbuttonsub
+{
+    float:left;
+    width:614px;
+    height:104px;
+    padding:0px;
+    border:none;
+    background-image:url("/WxImages/formsubbutton.png");
+    margin:0px auto;
+    color:#ffffff;
+    cursor:pointer;
+    font-size:1em;
+}
+
+.formbutton .button .formbuttonlink
+{
+    float:left;
+    width:614px;
+    height:104px;
+    line-height:104px;
+    padding:0px;
+    border:none;
+    margin:0px auto;
+    color:#ffffff;
+    text-align:center;
+}
+
+/**/
+.formbuttonscode
+{
+    float:left;
+    width:37%;
+    height:170px;
+    line-height:170px;
+    text-align:center;
+    border-left:1px solid #B7B7B7;
+    border-bottom:1px solid #B7B7B7;
+}
+
+.formimagecode
+{
+    float:left;
+    width:37%;
+    height:170px;
+    line-height:170px;
+    text-align:left;
+    border-left:1px solid #B7B7B7;
+    border-bottom:1px solid #B7B7B7;
+}
+
+/**/
+.forminputicon
+{
+    width:88px;
+    height:88px;
+    position:absolute;
+    margin-left:2%;
+    margin-top:41px;
+}
+
+/**/
+.content p
+{
+    float:left;
+    width:96%;
+    line-height:100px;
+    padding-left:2%;
+}
+        
+.content p font
+{
+    color:#d24307;
+}

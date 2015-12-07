@@ -1,0 +1,291 @@
+﻿body 
+{
+    font: 12px/18px "微软雅黑" , "宋体" , "黑体" ,Arial;
+    background: url("/Images/navbg.png") repeat-y scroll left top #f0f0f0;
+}
+
+a 
+{
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus 
+{
+    outline:none;
+}
+
+img 
+{
+    border:0px;
+}
+
+body, dl, dt, dd, ul, li, b, h2, img, a, input, select, textarea, h3, table, tr, td 
+{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li 
+{
+    list-style: outside none none;
+}
+
+.wrapper
+{
+    width:100%;
+    height:100%;
+}
+
+.primary_right 
+{
+    float: right;
+    height: auto !important;
+    margin-left: -294px;
+    min-height: 535px;
+    position: relative;
+    width: 100%;
+}
+
+.content 
+{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #fff;
+    border-color: -moz-use-text-color #cacaca #cacaca;
+    border-image: none;
+    border-right: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    top: 46px;
+}
+
+.title
+{
+    background:transparent url("/Images/titbg.png") repeat-x scroll 0 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+.title span 
+{
+    font-size: 12px;
+    line-height: 30px;
+    /*padding-left: 10px;*/
+}
+
+.btn 
+{
+    height: 20px;
+    padding-top: 5px;
+}
+
+.queryform_btn 
+{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.btn a 
+{
+    background:transparent url("/Images/btn_normal.png") no-repeat scroll left top;
+    color: #333;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.btn a span 
+{
+    background:transparent url("/Images/btn_normal.png") no-repeat scroll right top;
+    color: #333;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+table 
+{
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table 
+{
+    border: 0 solid #cbcbcb;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table th 
+{
+    background:transparent url("../Images/thbg.png") repeat-x scroll left top;
+    border-bottom: 1px solid #dedede;
+    font-size: 14px;
+}
+
+.table td 
+{
+    color: #686868;
+    font-size: 14px;
+}
+
+.table th, .table td 
+{
+    height: 34px;
+    line-height: 34px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.h2 
+{
+    background:transparent url("../Images/thbg.png") repeat-x scroll left top;
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #cacaca;
+    color: #333;
+    font-size: 18px;
+    font-weight: normal;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 10px;
+}
+
+.h2 span 
+{
+    color: #ff3333;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.table td.key 
+{
+    background: none repeat scroll 0 0 #fcfcfc;
+    border-right: 1px solid #dedede;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.out 
+{
+    height: 30px;
+    padding-top: 4px;
+    position: relative;
+}
+
+.table.add input 
+{
+    height: 18px;
+    line-height: 18px;
+    padding: 2px;
+    width: 300px;
+}
+
+.left 
+{
+    float: left;
+}
+
+.out div.smg 
+{
+    background:transparent url("../Images/smgbg.png") no-repeat scroll left center;
+    float: left;
+    height: 22px;
+    padding-left: 10px;
+}
+
+.out div.smg b 
+{
+    background:transparent url("../Images/smgbg.png") no-repeat scroll right center;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+    height: 22px;
+    line-height: 22px;
+    padding-right: 10px;
+}
+
+.table.add td span 
+{
+    color:#ff3333;
+    line-height: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tj_btn.bt 
+{
+    border-left: medium none;
+    float: none;
+}
+
+.tj_btn 
+{
+    padding-top: 10px;
+}
+
+.tj_btn 
+{
+    border-left: 1px solid #c9c9c9;
+    float: right;
+    height: 38px;
+    padding-left: 10px;
+    width: 300px;
+}
+
+.btnn a, .fb a, .tj_btn a 
+{
+    background:transparent url("../Images/icon_271.png") no-repeat scroll 0 0;
+    color: #333;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 6px;
+    text-align: center;
+    width: 85px;
+}
+
+.tj_btn.bt a span.a 
+{
+    color: #333;
+    line-height: 30px;
+}
+
+.tj_btn.bt a:hover span.a 
+{
+    color:#fff;
+    line-height:30px;
+}
+
+.btnn a:hover, .fb a:hover, .tj_btn a:hover {
+    background:transparent url("../Images/icon_27.png") no-repeat scroll 0 0;
+    color: #fff;
+}
+
+.option_a
+{
+    padding-right:5px;
+}
+
+.table.add select {
+    line-height: 18px;
+    padding: 2px;
+}
